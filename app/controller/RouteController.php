@@ -7,7 +7,7 @@
 
 namespace app\controller;
 
-class PagesController {
+class RouteController {
 //Function to Navigate to Home page 
 public function HomePage(){
     //include_once("view/home.php");

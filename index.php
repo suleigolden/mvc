@@ -6,11 +6,11 @@
  */
  
 require 'bootstrap.php';
-use app\controller\PagesController;
+use app\controller\RouteController;
 
 
 //creating an object of Controller_pages Class
-$route = new PagesController();
+$route = new RouteController();
 
 //Get the new page to view and send it to set_New_pages method if the page exist else view the home page. 
 if(isset($_GET['/'])){
