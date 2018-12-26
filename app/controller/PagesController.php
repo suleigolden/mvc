@@ -1,6 +1,13 @@
 <?php
+/**
+ * Copyright 2018 Suleiman A. Mamman AKA-TheLastCodeBender  (email : suleimamman@gmail.com)
+ *
+ * See license.txt for full license information.
+ */
 
-class Controller_pages {
+namespace app\controller;
+
+class PagesController {
 //Function to Navigate to Home page 
 public function HomePage(){
     //include_once("view/home.php");
@@ -24,4 +31,3 @@ if(!file_exists($page)){
 
 }
 
-?>
