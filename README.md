@@ -21,4 +21,4 @@ You are free to create as many controllers and models as you want, please See li
 
 ## License
 
-The TheLastCodeBender framework is open-sourced software licensed under the [GNU license](https://en.wikipedia.org/wiki/GNU_General_Public_License). See license.txt for full license information.
+The TheLastCodeBender PHP MVC Framework is open-sourced software licensed under the [GNU license](https://en.wikipedia.org/wiki/GNU_General_Public_License). See license.txt for full license information.
