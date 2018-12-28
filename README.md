@@ -1,22 +1,17 @@
 
 ##	TheLastCodeBender PHP MVC Framework
-	
-## Introduction
 
-	The PHP MVC Framework was develop using a simple customize MVC framework developed with PHP 7.
-	The MVC contains two folders inside the app folder (Controller, model) and aa view folder in the main directory.
+The PHP MVC Framework was develop using a simple customize MVC framework developed with PHP 7.
+The MVC contains two folders inside the app folder (Controller, model) and aa view folder in the main directory.
 
-	The autoload file load all the classes in each of the app folder automatically, while the index.php file send a
-	route request to the Routecontroller. 
+The autoload file load all the classes in each of the app folder automatically, while the index.php file send a route request to the Routecontroller. 
 
-	The Routecontroller handle the Navigation between the pages just like laravel routes.  
+The Routecontroller handle the Navigation between the pages just like laravel routes.  
 
-	The model folder has two file in it, 
-	the DbConnection.php file allows you to set your database connection, while the user.php model class extends DbConnection model class.
+The model folder has two file in it, the DbConnection.php file allows you to set your database connection, while the user.php model class extends DbConnection model class.
 
-	You are free to create as many controllers and models as you want, please See license.txt for full license information.
-		
-	
+You are free to create as many controllers and models as you want, please See license.txt for full license information.
+
 ## Installation
 
 - Clone or download this repository to your project Dir
