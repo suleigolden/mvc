@@ -1,13 +1,29 @@
-Simple PHP MVC Framework
-	
-	#Configuration
-	The PHP MVC Framework was develop using a simple customize MVC framework developed with PHP.
-	The MVC contains three main folders (Controller, model and view) and a index.php file that send a
-	request to set call page controller. The controller folder contain one files set_call_page.php controller. The set_call_page controller handle the Navigation 
-	between the pages just like laravel routes.  
 
-	The model folder has one file in it, 
-	the model.php file process user request sent from any of the controller file inside the controller foulder.
+##	TheLastCodeBender PHP MVC Framework
+	
+## Introduction
+
+	The PHP MVC Framework was develop using a simple customize MVC framework developed with PHP 7.
+	The MVC contains two folders inside the app folder (Controller, model) and aa view folder in the main directory.
+
+	The autoload file load all the classes in each of the app folder automatically, while the index.php file send a
+	route request to the Routecontroller. 
+
+	The Routecontroller handle the Navigation between the pages just like laravel routes.  
+
+	The model folder has two file in it, 
+	the DbConnection.php file allows you to set your database connection, while the user.php model class extends DbConnection model class.
+
+	You are free to create as many controllers and models as you want, please See license.txt for full license information.
 		
 	
-	
+## Installation
+
+- Clone or download this repository to your project Dir
+- Exract the files to your project Dir
+- On your server (Xamp or Wamp etc)
+- Open your browser and navigate to your project Dir. Example- localhost/project Dir
+
+## License
+
+The TheLastCodeBender framework is open-sourced software licensed under the [GNU license](https://en.wikipedia.org/wiki/GNU_General_Public_License). See license.txt for full license information.
