@@ -1,10 +1,13 @@
 
-##	TheLastCodeBender PHP MVC Framework
+##	TheLastCodeBender PHP MVC Application without libraries or frameworks
 
-The PHP MVC Framework was develop using a simple customize MVC framework developed with PHP 7.
-The MVC contains two folders inside the app folder (Controller, model) and aa view folder in the main directory.
+This project is a personal project created by Suleiman A. Mamman AKA TheLastCodeBender to learn the advance fundamentals of programming and modern web development from scratch using PHP 7.2 and MySQL. 
 
-The autoload file load all the classes in each of the app folder automatically, while the index.php file send a route request to the Routecontroller. 
+The main goals of the project are to learn and implement the full concept of Model View Controller(MVC), Object-Oriented Programming(OOP), routing, security, authentication, modern web development practices, and finally conbine them all together to function as a modern web application.
+
+The MVC contains two folders inside the app folder (Controller, model) and a view folder in the main directory.
+
+The autoload file load all the classes in each of the app folder automatically, while the index.php file send a route request to the Routecontroller to handle. 
 
 The Routecontroller handle the Navigation between the pages just like laravel routes.  
 
