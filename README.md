@@ -3,7 +3,7 @@
 
 This project is a personal project created by Suleiman A. Mamman AKA TheLastCodeBender to learn the advance fundamentals of programming and modern web development from scratch using PHP 7.2 and MySQL. 
 
-The main goals of the project are to learn and implement the full concept of Model View Controller(MVC), Object-Oriented Programming(OOP), routing, security, authentication, modern web development practices, and finally conbine them all together to function as a modern web application.
+The main goals of the project are to learn and implement the full concept of Model View Controller(MVC), Object-Oriented Programming(OOP), routing, security, authentication, modern web development practices, and finally conbine them all together to function like a Robust Web Application.
 
 The MVC contains two folders inside the app folder (Controller, model) and a view folder in the main directory.
 
