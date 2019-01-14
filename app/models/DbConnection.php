@@ -16,10 +16,10 @@ class DbConnection {
 	private $dbName;
 
 	protected function connect(){
-		$this->serverName = "localhost";
-		$this->userName = "root";
-		$this->password = "";
-		$this->dbName = "golden_chat";
+		$this->serverName = "YourServerName";
+		$this->userName = "YourUserName";
+		$this->password = "YourPasword";
+		$this->dbName = "YourDtabseName"; 
 
 		$conn = mysqli_connect($this->serverName,$this->userName,$this->password);
 		mysqli_select_db($conn, $this->dbName); 
