@@ -9,6 +9,7 @@ require 'bootstrap.php';
 use app\controller\RouteController;
 
 
+
 //creating an object of Controller_pages Class
 $route = new RouteController();
 

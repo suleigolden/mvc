@@ -17,11 +17,12 @@ class DbConnection {
 
 	protected function connect(){
 		$this->serverName = "localhost";
-		$this->userName = "";
+		$this->userName = "root";
 		$this->password = "";
-		$this->dbName = "";
+		$this->dbName = "golden_chat";
 
-		$conn = new mysqli($this->serverName,$this->userName,$this->password,$this->dbName);
+		$conn = mysqli_connect($this->serverName,$this->userName,$this->password);
+		mysqli_select_db($conn, $this->dbName); 
 
 		return $conn;
 	}

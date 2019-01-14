@@ -7,6 +7,7 @@
 
 namespace app\controller;
 
+
 class RouteController {
 //Function to Navigate to Home page 
 public function HomePage(){
@@ -20,7 +21,7 @@ public function set_New_pages($page){
  $this -> CheckpageNotFound("view/".$page.".php");      
  }
 //function to check if page exist
-function CheckpageNotFound($page){
+private function CheckpageNotFound($page){
   $not_found = "404notfound";
 if(!file_exists($page)){
         return include_once("view/".$not_found.".php");
